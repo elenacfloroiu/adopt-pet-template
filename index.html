@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Adopt a BF</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-head">
+        <nav>
+          <div id="logo"><img src="Images/pets.svg" /></div>
+          <div class="topnav" id="myTopnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a href="#contact-us">CONTACT US</a>
+            <a href="#blog">LOVE STORIES</a>
+            <a href="#adopt">ADOPT</a>
+            <a href="#home-description">HOME</a>           
+          </div>
+        </nav>
+      </header>
+      <main class="content">
+        <section id="home-description" class="description">
+          <h1>Adopt a cute friend!</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+            corrupti quos tenetur, delectus nesciunt a porro ut repellat quia.
+            Quod. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Possimus earum obcaecati, nihil placeat laborum vitae, quisquam
+            eveniet iusto ducimus culpa voluptas perferendis. Vitae iste minus
+            provident fugit dolore quidem dolores, rem pariatur blanditiis nobis
+            sint velit magnam amet. Rem, temporibus praesentium id quae
+            cupiditate officiis totam ipsam atque voluptate reiciendis.
+          </p>
+          <button class="btn"><b>GET STARTED</b></button>
+        </section>
+        <section class="dog-img">
+          <img src="Images/pupies.png" />
+        </section>
+      </main>
+    </div>
+    <section class="container" id="adopt">
+      <div class="adopt-container" style="padding-top: 26px">
+        <h1><b>Choose your BEST FRIEND !</b></h1>
+      </div>
+      <div class="grid-box">
+        <div class="grid-item" id="grid-item">
+          <div class="item">
+            <img class="icon" src="Images/dog.svg">
+            <span class="line"></span>
+            <span class="text"><b>DOGS</b><span>
+          </div>
+        </div>
+      <div class="grid-item" id="grid-item1">
+        <div class="item" id='item1'>
+            <img class="icon" src="Images/toyger-cat.svg">
+            <span class="line"></span>
+            <span class="text"><b>CATS</b></span>
+          </div>
+        </div> 
+      <div class="grid-item" id="grid-item2">
+        <div class="item" id="item2">
+            <img class="icon" src="Images/dove.svg">
+            <span class="line"></span>
+            <span class="text"><b>BIRDS</b></span>
+          </div>
+        </div>
+          
+          <div class="grid-item" id="grid-item3">
+        <div class="item" id="item3">
+            <img class="icon" src="Images/fish.svg">
+            <span class="line"></span>
+            <span class="text"><b>FISH</b></span>
+          </div>
+        </div>
+            <div class="grid-item" id="grid-item4">
+        <div class="item" id="item4">
+            <img class="icon" src="Images/reptile.svg">
+            <span class="line"></span>
+            <span class="text"><b>REPTILES</b></span>
+          </div>
+        </div>
+            <div class="grid-item" id="grid-item5">
+        <div class="item" id="item5">
+            <img class="icon" src="Images/rabbit.svg">
+            <span class="line"></span>
+            <span class="text"><b>SMALL PETS</b></span>
+          </div>
+          </div>
+        </div>
+    </section>
+    <section class="container" id="blog">
+      <main class="content">
+        <section class="storyBox">
+          <img class="lovestory" src="Images/Capture.PNG" />
+          <h1 id="name">DONA & SCOOBY</h1>
+        </section>
+        <section id="story-description" class="description storyBox" >
+          <h1> Love story...<i>🤍</i></h1>
+          <p><b>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            aspernatur labore quibusdam ex nemo dolorem quidem eaque alias nobis
+            eius fugit aliquam ut voluptatum, impedit nostrum quod possimus
+            neque quas eveniet! Placeat excepturi quidem rerum aperiam et, ab
+            numquam natus, voluptate voluptas incidunt ullam nisi similique
+            voluptatum animi assumenda! Est ipsa inventore at doloremque
+            expedita asperiores earum nulla rem magni quas, possimus cumque
+            aspernatur animi cum tempora fugiat hic maxime in?
+          </b></p>
+          <button class="btn"><b>SEE MORE STORIES</b></button>
+        </section>
+      </main>
+    </section>
+    <section class="container" id="contact-us">
+      <main class="content">
+        <div class="form-container">
+          <h2><b>CONTACT US</b></h2>
+          <form action="#">
+            <div class="control">
+              <label for="name">Name:</label>
+              <input
+                id="input-name"
+                type="text"
+                name="_replyto"
+                required
+                minlength="4"
+                placeholder="  Name.."
+              />
+            </div>
+            <div class="control">
+              <label for="email">Email:</label>
+              <input
+                id="email"
+                type="text"
+                required
+                name="_replyto"
+                placeholder="  Email.."
+              />
+            </div>
+            <div class="control">
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                type="text"
+                required
+                name="_replyto"
+                placeholder="  Message.."
+              ></textarea>
+            </div>
+            <span><input type="checkbox" />Accept terms and conditions</span>
+            <div class="control">
+              <input type="submit" value="SUBMIT" />
+            </div>
+          </form>
+        </div>
+      </main>
+    </section>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
